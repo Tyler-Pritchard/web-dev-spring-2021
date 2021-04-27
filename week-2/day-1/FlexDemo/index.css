@@ -1,0 +1,43 @@
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    /* default rem value */
+    font-size: 62.5%;    /* 1rem = 10px; 10px/16px = 62.5% */
+}
+
+body {
+    box-sizing: border-box;
+    padding: 1rem;
+    background-color: black;
+    overflow: hidden;
+}
+
+.flexy {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn {
+    height: 200px !important;
+    color: orangered;
+}
+
+.btn-primary {
+    color: green;
+    height: 100px;
+}
+
+
+
+#mybestID {
+
+}
